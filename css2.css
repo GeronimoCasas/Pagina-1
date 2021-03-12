@@ -37,9 +37,10 @@
 	.text1{
 	position: absolute;
 	top: 1px;
-	left: 100px;
+	left: 160px;
 	color: #5858FA;
-	font-size: 30px
+	font-size: 30px;
+	font-family: ola;
 	}
 	.Mayor2{
 	position: absolute;
@@ -62,14 +63,15 @@
 	top: 10px;
 	left:170px;
 	color: #5858FA;
-	font-size: 15px	
+	font-size: 20px	;
+    font-family: pepe;
 	}
 	.Menor2{
 	position: absolute;
 	top: 20px;
 	left:38px;
 	width:320px;
-	height: 200px;
+	height: 250px;
 	background: rgba(239, 250, 249,0.3);
 
 
@@ -79,7 +81,8 @@
 	top: 10px;
 	left:40px;
 	color: #5858FA;
-	font-size: 15px		
+	font-size: 15px	;
+	font-family: pepe;
 	}
 	.fotos{
 	position: absolute;
@@ -130,9 +133,28 @@
 	top: 100px;
 	left:370px;
 	width:100px;
-	height: 100px;
-	background: #CAA5E5;	
+	height: 150px;
+	background: #CAA5E5;
+	font-size: 15px;	
+	font-family: lola;
 	}
+	@font-face{
+		font-family: ola;
+		src:url(Chalkboy.ttf);
+	}
+	@font-face{
+		font-family: lola;
+		src:url(jai.ttf);
+	}
+	@font-face{
+		font-family: pepe;
+		src:url(Snufkin.otf);
+	}
+	@font-face{
+		font-family: mama;
+		src:url(alo.otf);
+	}
+
 
 
 
