@@ -1,0 +1,641 @@
+.Fondo{
+position: absolute;
+top: 1px;
+left:600px;
+width:700px;
+height: 970px;
+background: linear-gradient(to bottom, #EC0707,#BB1C06, #CB0B0B,#210202);
+
+}
+.RayaA{
+position: absolute;
+top: 10px;
+left:50px;
+width:600px;
+height: 10px;
+background: linear-gradient(to right, #D6810E, gold)
+
+}
+.textot{
+   position: absolute;
+	top: 40px;
+	left:240px;
+	font-size: 60px	;
+font-family: mama;
+background: -webkit-linear-gradient(#D6810E,gold);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.texto2{
+position: absolute;
+top: 110px;
+	left:300px;
+	font-size: 15px	;
+font-family: papa;
+background: -webkit-linear-gradient(#D6810E,gold);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+
+}
+.Raya1{
+
+position: absolute;
+top: 114px;
+left:250px;
+width:40px;
+height: 7px;
+background: linear-gradient(to right, #D6810E, gold)
+
+}
+.Raya2{
+
+position: absolute;
+top: 114px;
+left:400px;
+width:40px;
+height: 7px;
+background: linear-gradient(to right, #D6810E, gold)
+
+}
+.texto3{
+position: absolute;
+top: 170px;
+	left:210px;
+	font-size: 35px	;
+font-family: papa;
+background: -webkit-linear-gradient(#D6810E,gold);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+font-style: italic;
+	}
+.texto4{
+position: absolute;
+top: 210px;
+	left:150px;
+	font-size: 65px	;
+font-family: tio;
+color: white;
+font-style: italic;
+
+}
+.texto5{
+position: absolute;
+top: 275px;
+	left:180px;
+	font-size: 65px	;
+font-family: tio;
+color: white;
+font-style: italic;
+}
+.foto1{
+position: absolute;
+	top: -100px;
+	left: -198px;
+	width: 600px;
+	height: 600px;
+	background: url("fotu1.png");
+	background-size: cover;
+	transform: rotate(90deg);
+
+}
+.foto2{
+position: absolute;
+	top: 133px;
+	left: 298px;
+	width: 600px;
+	height: 600px;
+	background: url("fotu1.png");
+	background-size: cover;
+	transform: rotate(-90deg);
+
+}
+.texto6{
+position: absolute;
+top: 370px;
+	left:240px;
+	font-size: 30px	;
+font-family: papa;
+color: gold;
+font-style: italic;
+}
+.texto7{
+position: absolute;
+top: 400px;
+	left:270px;
+	font-size: 30px	;
+font-family: papa;
+color: gold;
+font-style: italic;
+}
+.Raya{
+position: absolute;
+top: 960px;
+left:50px;
+width:600px;
+height: 10px;
+background: linear-gradient(to right, #B43D02, gold)
+}
+	.foto3{
+position: absolute;
+	top: 350px;
+	left: 180px;
+	width: 350px;
+	height:350px;
+	background: url("pito.png");
+	background-size: cover;
+	    transform: scaleX(-1);
+	    z-index: 3
+
+	}
+.foto4{
+position: absolute;
+	top: 400px;
+	left: 120px;
+	width: 450px;
+	height:400px;
+	background: url("tambor.png");
+	background-size: cover;
+	transform: rotate(15deg);
+	}
+	.foto5{
+position: absolute;
+	top: 300px;
+	left: -50px;
+	width: 650px;
+	height:600px;
+	background: url("guitarra.png");
+	background-size: cover;
+	transform: rotate(325deg);
+
+
+	}
+
+.Chile{
+
+position: absolute;
+	top: 460px;
+	left: 620px;
+	width: 50px;
+	height:50px;
+	background: url("Chile.png");
+	background-size: cover;
+	border-radius: 100px;
+
+}
+.Colombia{
+
+position: absolute;
+	top: 500px;
+	left: 620px;
+	width: 50px;
+	height:50px;
+	background: url("Colo.png");
+	background-size: cover;
+	border-radius: 100px;
+}
+.Bolivia{
+position: absolute;
+	top: 540px;
+	left: 620px;
+	width: 50px;
+	height:50px;
+	background: url("Boli.png");
+	background-size: cover;
+	border-radius: 100px;
+
+}
+.Ecuador{
+	
+position: absolute;
+	top: 580px;
+	left: 620px;
+	width: 50px;
+	height:50px;
+	background: url("Ecu.jpg");
+	background-size: cover;
+	border-radius: 100px;
+}
+.Paraguay{
+position: absolute;
+	top: 620px;
+	left: 620px;
+	width: 50px;
+	height:50px;
+	background: url("Para.png");
+	background-size: cover;
+	border-radius: 100px;
+
+}
+.Uruguay{
+position: absolute;
+	top: 660px;
+	left: 620px;
+	width: 50px;
+	height:50px;
+	background: url("Uru.png");
+	background-size: cover;
+	border-radius: 100px;
+
+}
+.Chi{
+
+position: absolute;
+	top: 470px;
+	left: 550px;
+	width: 50px;
+	height:50px;
+	font-size: 20px;
+	font-family:Hijo;
+	color: white; 
+}
+.Co{
+position: absolute;
+	top: 510px;
+	left: 550px;
+	width: 50px;
+	height:50px;
+	font-size: 20px;
+		font-family:Hijo;
+		color: white;
+}
+.Bo{
+position: absolute;
+	top: 550px;
+	left: 550px;
+	width: 50px;
+	height:50px;
+	font-size: 20px;
+		font-family:Hijo;
+		color: white;
+}
+.Ecu{
+position: absolute;
+	top: 590px;
+	left: 550px;
+	width: 50px;
+	height:50px;
+	font-size: 20px;
+		font-family:Hijo;
+		color: white;
+}
+.Par{
+position: absolute;
+	top: 630px;
+	left: 550px;
+	width: 50px;
+	height:50px;
+	font-size: 20px;
+		font-family:Hijo;
+		color: white;
+}
+.Uru{
+position: absolute;
+	top: 670px;
+	left: 550px;
+	width: 50px;
+	height:50px;
+	font-size: 20px;
+		font-family:Hijo;
+		color: white;
+}
+
+.texto8{
+position: absolute;
+	top: 570px;
+	left: 55px;
+	width: 50px;
+	height:50px;
+	font-size: 40px;
+		font-family:Hijo;
+		color: gold;
+}
+.texto9{
+position: absolute;
+top: 605px;
+left:46px;
+width:110px;
+height: 50px;
+background:yellow;
+border-radius: 5px
+}
+.texto10{
+position: absolute;
+	top: 4px;
+	left: 10px;
+	width: 100px;
+	height:50px;
+	font-size: 35px;
+		font-family:hija;
+		color: black;
+}
+.texto11{
+position: absolute;
+	top: 670px;
+	left: 68px;
+	width: 50px;
+	height:50px;
+	font-size: 25px;
+		font-family:hija;
+		color: gold;
+}
+.texto12{
+position: absolute;
+	top: 700px;
+	left: 48px;
+	width: 2000px;
+	height:50px;
+	font-size: 20px;
+		font-family:hija;
+		color: gold;
+}
+.texto13{
+position: absolute;
+	top: 720px;
+	left: 48px;
+	width: 2000px;
+	height:50px;
+	font-size: 20px;
+		font-family:hija;
+		color: gold;
+}
+
+.texto14{
+position: absolute;
+	top: 737px;
+	left: 48px;
+	width: 2000px;
+	height:50px;
+	font-size: 10px;
+		font-family:hija;
+		color: gold;
+}
+.texto15{
+position: absolute;
+	top: 750px;
+	left: 70px;
+	width: 2000px;
+	height:50px;
+	font-size: 30px;
+		font-family:hija;
+		color: gold;
+}
+.texto16{
+position: absolute;
+	top: 775px;
+	left: 220px;
+	width: 2000px;
+	height:50px;
+	font-size: 30px;
+		font-family:tio;
+		color: gold;
+		font-style: italic;
+}
+.texto17{
+position: absolute;
+	top: 786px;
+	left: 320px;
+	width: 2000px;
+	height:50px;
+	font-size: 17px;
+		font-family:tio;
+		color: white;
+		font-style: italic;
+}
+.texto18{
+	  position: absolute;
+	top: 797px;
+	left:210px;
+	font-size: 80px	;
+font-family: mama;
+background: -webkit-linear-gradient(#E95810,#F77C3F,#E95810);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.texto19{
+ position: absolute;
+	top: 794px;
+	left:260px;
+	font-size: 80px	;
+font-family: mama;
+color: gold;
+}
+.texto20{
+ position: absolute;
+	top: 792px;
+	left:310px;
+	font-size: 80px	;
+font-family: mama;
+color: red;
+}
+.texto21{
+ position: absolute;
+	top: 790px;
+	left:360px;
+	font-size: 80px	;
+font-family: mama;
+color: #72C014;
+}
+.texto22{
+ position: absolute;
+	top: 790px;
+	left:410px;
+	font-size: 80px	;
+font-family: mama;
+color: blue;
+}
+.texto23{
+ position: absolute;
+	top: 790px;
+	left:460px;
+	font-size: 80px	;
+font-family: mama;
+color: yellow;
+}
+.texto24{
+ position: absolute;
+	top: 792px;
+	left:510px;
+	font-size: 80px	;
+font-family: mama;
+color: #FA09A9;
+}
+.texto25{
+ position: absolute;
+	top: 794px;
+	left:560px;
+	font-size: 80px	;
+font-family: mama;
+color: #B809FA;
+}
+.l1{
+position: absolute;
+	top: 900px;
+	left:200px;
+	font-size: 35px	;
+font-family: mama;
+color: white;
+}
+.l2{
+position: absolute;
+	top: 900px;
+	left:230px;
+	font-size: 35px	;
+font-family: mama;
+color: white;	
+}
+.l3{
+position: absolute;
+	top: 900px;
+	left:260px;
+	font-size: 35px	;
+font-family: mama;
+color: white;	
+}
+.l4{
+position: absolute;
+	top: 900px;
+	left:290px;
+	font-size: 35px	;
+font-family: mama;
+color: white;	
+}
+.l5{
+position: absolute;
+	top: 900px;
+	left:320px;
+	font-size: 35px	;
+font-family: mama;
+color: white;	
+}
+.l6{
+position: absolute;
+top: 900px;
+left: 350px;
+font-size: 35px;
+font-family: mama;
+color: white;
+}
+.l7{
+	position: absolute;
+	top: 900px;
+	left:380px;
+	font-size: 35px	;
+font-family: mama;
+color: white;
+}
+.l8{
+	position: absolute;
+	top: 900px;
+	left:410px;
+	font-size: 35px	;
+font-family: mama;
+color: white;
+}
+.l9{
+	position: absolute;
+	top: 900px;
+	left:440px;
+	font-size: 35px	;
+font-family: mama;
+color: white;
+}
+.l10{
+position: absolute;
+	top: 900px;
+	left:460px;
+	font-size: 35px	;
+font-family: mama;
+color: white;	
+}
+.l11{
+position: absolute;
+	top: 900px;
+	left:490px;
+	font-size: 35px	;
+font-family: mama;
+color: white;	
+}
+.l12{
+	position: absolute;
+	top: 900px;
+	left:520px;
+	font-size: 35px	;
+font-family: mama;
+color: white;
+}
+.l13{
+	position: absolute;
+	top: 900px;
+	left:550px;
+	font-size: 35px	;
+font-family: mama;
+color: white;
+}
+.l14{
+	position: absolute;
+	top: 905px;
+	left:590px;
+	font-size: 15px	;
+font-family: mama;
+color: white;
+}
+.l15{
+	position: absolute;
+	top: 905px;
+	left:620px;
+	font-size: 15px	;
+font-family: mama;
+color: white;
+}
+.l16{
+	position: absolute;
+	top: 905px;
+	left:650px;
+	font-size: 15px	;
+font-family: mama;
+color:white;
+}
+.l17{
+position: absolute;
+	top: 905px;
+	left:680px;
+	font-size: 15px	;
+font-family: mama;
+color: white;
+}
+.l17{
+	position: absolute;
+	top: 905px;
+	left:680px;
+	font-size: 15px	;
+font-family: mama;
+color: white;
+}
+
+		@font-face{
+		 font-family:Hijo;
+		src:url(bro.ttf);
+}
+
+		@font-face{
+		 font-family:mama;
+		src:url(f1.ttf);
+}
+	@font-face{
+		font-family: papa;
+		src:url(f2.otf);
+	}
+
+	@font-face{
+    font-family: tio;
+    src:url(f3.ttf);
+
+	}
+	@font-face{
+    font-family: hija;
+    src:url(ke.otf);
+
+	}
